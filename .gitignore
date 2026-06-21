@@ -1,0 +1,11 @@
+# Local python cache
+__pycache__/
+*.pyc
+
+# Local data or models (Streamlit cloud will download fresh or use cached)
+.kaggle/
+extracted_data/
+
+# OS files
+.DS_Store
+Thumbs.db
