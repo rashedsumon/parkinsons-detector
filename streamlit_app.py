@@ -8,7 +8,7 @@ from model import train_and_save_model
 # Page configuration
 st.set_page_config(page_title="Parkinson's Movement Assessment App", layout="wide")
 
-st.title("🧠 Parkinson's Disease Movement Screening App")
+st.title("🧠 Parkinson's Disease Detector")
 st.write("This app uses AI to check for physical signs of Parkinson's disease by analyzing body movement metrics.")
 
 MODEL_FILE = "parkinsons_model.pkl"
