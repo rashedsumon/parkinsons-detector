@@ -23,7 +23,7 @@ def prepare_ai_model():
 
 try:
     model = prepare_ai_model()
-    st.success("🤖 AI Engine Active & Loaded Successfully!")
+    
 except Exception as e:
     st.error(f"Error initializing the app: {e}")
     st.stop()
