@@ -86,7 +86,7 @@ if st.button("Run Diagnostic Assessment", type="primary"):
         st.info("💡 *Reminder: This is a screening helper tool, not a formal diagnosis. Please consult a medical professional for official evaluations.*")
     else:
         st.success("✅ **Normal Movement Patterns**")
-        st.metric(label="AI Match Confidence", value=f"{chance_healthy}%")
+       
         st.write(
             "**What this means:** The movement patterns look healthy, steady, and balanced. "
             "Walking speeds, step consistency, and arm swings all align within typical healthy baselines."
