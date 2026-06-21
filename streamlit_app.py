@@ -77,7 +77,7 @@ if st.button("Run Diagnostic Assessment", type="primary"):
     
     if prediction == 1:
         st.error("⚠️ **Signs of Parkinson's Detected**")
-        st.metric(label="AI Match Confidence", value=f"{chance_parkinsons}%")
+        
         st.write(
             "**What this means:** The movement patterns entered look similar to patterns "
             "often seen in individuals with Parkinson's disease. The system flagged anomalies "
