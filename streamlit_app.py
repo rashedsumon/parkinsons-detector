@@ -24,7 +24,7 @@ def prepare_ai_model():
 
 try:
     model = prepare_ai_model()
-    st.success("🤖 AI Engine Active & Ready for Use!")
+    
 except Exception as e:
     st.error(f"Error starting the application: {e}")
     st.stop()
