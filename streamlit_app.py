@@ -71,9 +71,4 @@ if st.button("Run Diagnostic Assessment", type="primary"):
     st.markdown("---")
     st.subheader("📋 Assessment Results")
     
-    if prediction == 1:
-        st.error(f"⚠️ **Result Indicative of Parkinson's Disease Patterns** (Confidence: {probabilities[1]*100:.1f}%)")
-        st.write("The system detected irregularities in movement markers such as high hand-tremor frequencies or prominent arm swing asymmetry.")
-    else:
-        st.success(f"✅ **Result Normal / Control Group Baseline** (Confidence: {probabilities[0]*100:.1f}%)")
-        st.write("Kinematic patterns fall within healthy parameter variations.")
+    
